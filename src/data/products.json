@@ -1,0 +1,267 @@
+{
+    "livestock": [
+        {
+          "id": 1,
+          "name": "Alvex",
+          "image": "livestock_product_1.webp"
+        },
+        {
+          "id": 2,
+          "name": "Astar Phos",
+          "image": "livestock_product_2.webp"
+        },
+        {
+          "id": 3,
+          "name": "Bird Cure",
+          "image": "livestock_product_3.webp"
+        },
+        {
+          "id": 4,
+          "name": "Astar Jest",
+          "image": "livestock_product_4.webp"
+        },
+        {
+          "id": 5,
+          "name": "C-Cure",
+          "image": "livestock_product_5.webp"
+        },
+        {
+          "id": 6,
+          "name": "C-Bostar",
+          "image": "livestock_product_6.webp"
+        },
+        {
+          "id": 7,
+          "name": "Dee Phosphate",
+          "image": "livestock_product_7.webp"
+        },
+        {
+          "id": 8,
+          "name": "Feed Picker",
+          "image": "livestock_product_8.webp"
+        },
+        {
+          "id": 9,
+          "name": "Endomall Plus",
+          "image": "livestock_product_9.webp"
+        },
+        {
+          "id": 10,
+          "name": "Happy Dog",
+          "image": "livestock_product_10.webp"
+        },
+        {
+          "id": 11,
+          "name": "Ivermall 2%",
+          "image": "livestock_product_11.webp"
+        },
+        {
+          "id": 12,
+          "name": "Floxaras-20",
+          "image": "livestock_product_12.webp"
+        },
+        {
+          "id": 13,
+          "name": "Jatimix",
+          "image": "livestock_product_13.webp"
+        },
+        {
+          "id": 14,
+          "name": "Ji Fax",
+          "image": "livestock_product_14.webp"
+        },
+        {
+          "id": 15,
+          "name": "Levaxicare Bolus",
+          "image": "livestock_product_15.webp"
+        },
+        {
+          "id": 16,
+          "name": "Marozole-150 Bolus",
+          "image": "livestock_product_16.webp"
+        },
+        {
+          "id": 17,
+          "name": "Koflet",
+          "image": "livestock_product_17.webp"
+        },
+        {
+          "id": 18,
+          "name": "Meg Nill",
+          "image": "livestock_product_18.webp"
+        },
+        {
+          "id": 19,
+          "name": "Marozole-250 Bolus",
+          "image": "livestock_product_19.webp"
+        },
+        {
+          "id": 20,
+          "name": "Minrall",
+          "image": "livestock_product_20.webp"
+        },
+        {
+          "id": 21,
+          "name": "Meloras-10",
+          "image": "livestock_product_21.webp"
+        },
+        {
+          "id": 22,
+          "name": "Myco Fix",
+          "image": "livestock_product_22.webp"
+        },
+        {
+          "id": 23,
+          "name": "Moxcil-La",
+          "image": "livestock_product_23.webp"
+        },
+        {
+          "id": 24,
+          "name": "Poult Up",
+          "image": "livestock_product_24.webp"
+        },
+        {
+          "id": 25,
+          "name": "Prolaster",
+          "image": "livestock_product_25.webp"
+        },
+        {
+          "id": 26,
+          "name": "Oxy Clor-N",
+          "image": "livestock_product_26.webp"
+        },
+        {
+          "id": 27,
+          "name": "Repfit",
+          "image": "livestock_product_27.webp"
+        },
+        {
+          "id": 28,
+          "name": "Q Zan",
+          "image": "livestock_product_28.webp"
+        },
+        {
+          "id": 29,
+          "name": "Sabrofit-DS",
+          "image": "livestock_product_29.webp"
+        },
+        {
+          "id": 30,
+          "name": "Retinol",
+          "image": "livestock_product_30.webp"
+        },
+        {
+          "id": 31,
+          "name": "Temp Tone",
+          "image": "livestock_product_31.webp"
+        },
+        {
+          "id": 32,
+          "name": "Septicon Spray",
+          "image": "livestock_product_32.webp"
+        },
+        {
+          "id": 33,
+          "name": "Toxitone",
+          "image": "livestock_product_33.webp"
+        },
+        {
+          "id": 34,
+          "name": "Tetracox",
+          "image": "livestock_product_34.webp"
+        },
+        {
+          "id": 35,
+          "name": "Colcus",
+          "image": "livestock_product_35.webp"
+        },
+        {
+          "id": 36,
+          "name": "Udder Grow",
+          "image": "livestock_product_36.webp"
+        }
+      ],
+    "poultry": [
+        {
+          "id": 37,
+          "name": "Astarlyte",
+          "image": "poultry_product_1.webp"
+        },
+        {
+          "id": 38,
+          "name": "Uri Nux",
+          "image": "poultry_product_2.webp"
+        },
+        {
+          "id": 39,
+          "name": "Livocid Super",
+          "image": "poultry_product_3.webp"
+        },
+        {
+          "id": 40,
+          "name": "Immune Force",
+          "image": "poultry_product_4.webp"
+        },
+        {
+          "id": 41,
+          "name": "Liso Ec",
+          "image": "poultry_product_5.webp"
+        },
+        {
+          "id": 42,
+          "name": "Adekon",
+          "image": "poultry_product_6.webp"
+        },
+        {
+          "id": 43,
+          "name": "C Vit 60",
+          "image": "poultry_product_7.webp"
+        },
+        {
+          "id": 44,
+          "name": "Bromo Fresh",
+          "image": "poultry_product_8.webp"
+        },
+        {
+          "id": 45,
+          "name": "Astar Vit-C",
+          "image": "poultry_product_9.webp"
+        },
+        {
+          "id": 46,
+          "name": "Nor-100",
+          "image": "poultry_product_10.webp"
+        },
+        {
+          "id": 47,
+          "name": "Bio PH",
+          "image": "poultry_product_11.webp"
+        },
+        {
+          "id": 48,
+          "name": "Astar Phos",
+          "image": "poultry_product_12.webp"
+        },
+        {
+          "id": 49,
+          "name": "Tetracox",
+          "image": "poultry_product_13.webp"
+        },
+        {
+          "id": 50,
+          "name": "Oxy Clor-N",
+          "image": "poultry_product_14.webp"
+        },
+        {
+          "id": 51,
+          "name": "ID-Ambrox",
+          "image": "poultry_product_15.webp"
+        },
+        {
+          "id": 52,
+          "name": "Bromodil",
+          "image": "poultry_product_16.webp"
+        }
+      ]
+            
+}
