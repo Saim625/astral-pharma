@@ -30,13 +30,6 @@ const slides = [
     description:
       "Ensure the well-being of your livestock with our trusted range of medicines and supplements.",
   },
-  {
-    id: 4,
-    image: "/slide6.jpg",
-    title: "Innovative Veterinary Medicines",
-    description:
-      "Combining science and care to bring the best solutions for your farm animals.",
-  },
 ];
 
 
@@ -79,7 +72,7 @@ const HeroSection = () => {
             {/* First Slide (Custom Layout) */}
             {slide.type === "custom" ? (
               <div
-                className="w-full min-h-[50vh] lg:min-h-[100vh] flex flex-col justify-center items-center px-6"
+                className="w-full min-h-[60vh] sm:min-h-[70vh] lg:min-h-[100vh] flex flex-col justify-center items-center px-6"
                 style={{
                   background: "linear-gradient(to bottom, #f9fafb, #e3f2fd)", // Subtle gradient background
                 }}
@@ -87,7 +80,7 @@ const HeroSection = () => {
                 <div className="max-w-6xl px-6 lg:px-12 flex flex-col lg:flex-row items-center">
                   {/* Left Content */}
                   <div className="text-center lg:text-left lg:w-1/2 space-y-4">
-                    <h1 className="text-3xl lg:text-5xl font-bold text-blue-700">
+                    <h1 className="mt-14 text-2xl sm:text-3xl lg:text-5xl font-bold text-blue-700">
                       {slide.title}
                     </h1>
                     <p className="text-gray-600 text-base lg:text-lg mb-6 whitespace-pre-wrap">
@@ -114,7 +107,7 @@ const HeroSection = () => {
             ) : (
               /* Other Slides (Image Background) */
               <div
-                className="w-full min-h-[50vh] lg:min-h-[100vh] bg-contain bg-center flex flex-col justify-center items-center text-white text-center px-6"
+                className="w-full min-h-[60vh] sm:min-h-[70vh] lg:min-h-[100vh] bg-contain bg-center flex flex-col justify-center items-center text-white text-center px-6"
                 style={{
                   backgroundImage: `url(${slide.image})`,
                   backgroundSize: "cover", // Cover full area without repeating
@@ -125,7 +118,7 @@ const HeroSection = () => {
                 }}
               >
                 <div className="max-w-2xl px-4">
-                  <h1 className="text-3xl lg:text-4xl font-bold">
+                  <h1 className="mt-14 text-2xl sm:text-3xl lg:text-4xl font-bold">
                     {slide.title}
                   </h1>
                   <p className="text-base lg:text-lg">{slide.description}</p>

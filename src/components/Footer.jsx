@@ -2,6 +2,7 @@ import React from "react";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { FaFacebookF, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -22,7 +23,9 @@ const Footer = () => {
               className="h-16"
             />
             <div className="flex flex-col items-start">
-              <p className="text-4xl font-extrabold text-white">Astral Pharma</p>
+              <p className="text-4xl font-extrabold text-white">
+                Astral Pharma
+              </p>
               {/* Tagline under Logo & Name */}
               <p className="text-gray-300 text-sm mt-2">
                 Providing top-tier poultry and livestock health solutions across
@@ -54,6 +57,37 @@ const Footer = () => {
                 Colony, Multan
               </li>
             </ul>
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1.1, delay: 0.3 }}
+              className="flex flex-col space-y-4"
+            >
+              <div className="flex space-x-5 text-white text-2xl">
+                <a
+                  href="https://www.facebook.com/sultan.saleem.7545/?locale=sr_RS&amp;paipv=0&amp;eav=AfaDMo3Jx74AZPylIieC8ZjVKgRTdhHaGBDt6HmfQJJ04NAgw0tEI5eWOk-_dVQ2RBs&amp;_rdr" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-400 transition"
+                >
+                  <FaFacebookF />
+                </a>
+                <a
+                  href="mailto:astralpharma786@gmail.com"
+                  className="hover:text-red-400 transition"
+                >
+                  <FaEnvelope />
+                </a>
+                <a
+                  href="https://wa.me/923067311786"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-green-400 transition"
+                >
+                  <FaWhatsapp />
+                </a>
+              </div>
+            </motion.div>
           </motion.div>
 
           {/* Categories */}

@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import data from "../data/products.json";
 import { FiX } from "react-icons/fi";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const PoultryProducts = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -30,9 +32,11 @@ const PoultryProducts = () => {
               key={product.id}
               className="group rounded-lg shadow-md bg-white border border-gray-200 p-4"
             >
-              <img
+              <LazyLoadImage
                 src={`/poultry/${product.image}`}
                 alt={product.name}
+                effect="blur"
+                loading="lazy"
                 className="w-full h-auto max-h-60 object-contain mx-auto mb-4 cursor-pointer"
                 onClick={() => handleImageClick(product.image)}
               />

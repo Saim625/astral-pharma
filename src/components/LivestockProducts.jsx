@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import data from "../data/products.json";
 import { FiX } from "react-icons/fi";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const LivestockProducts = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -30,9 +32,11 @@ const LivestockProducts = () => {
               key={product.id}
               className="group rounded-lg shadow-md bg-white border border-gray-200 p-4"
             >
-              <img
+              <LazyLoadImage
                 src={`/live-stock/${product.image}`}
                 alt={product.name}
+                effect="blur"
+                loading="lazy"
                 className="w-full h-auto max-h-60 object-contain mx-auto mb-4 cursor-pointer"
                 onClick={() => handleImageClick(product.image)}
               />
@@ -45,29 +49,29 @@ const LivestockProducts = () => {
       </div>
 
       {/* Modal */}
-       {isModalOpen && (
-              <div
-                className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 p-4"
-                onClick={closeModal}
-              >
-                <div
-                  className="relative bg-transparent p-0 w-full max-w-full shadow-lg"
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  <img
-                    src={`/live-stock/${selectedImage}`}
-                    alt="Enlarged"
-                    className="w-full h-auto max-h-[90vh] object-contain"
-                  />
-                  <button
-                    onClick={closeModal}
-                    className="absolute top-2 right-2 bg-black rounded-full text-white hover:text-red-700 z-10"
-                  >
-                    <FiX size={40} />
-                  </button>
-                </div>
-              </div>
-            )}
+      {isModalOpen && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 p-4"
+          onClick={closeModal}
+        >
+          <div
+            className="relative bg-transparent p-0 w-full max-w-full shadow-lg"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <img
+              src={`/live-stock/${selectedImage}`}
+              alt="Enlarged"
+              className="w-full h-auto max-h-[90vh] object-contain"
+            />
+            <button
+              onClick={closeModal}
+              className="absolute top-2 right-2 bg-black rounded-full text-white hover:text-red-700 z-10"
+            >
+              <FiX size={40} />
+            </button>
+          </div>
+        </div>
+      )}
     </section>
   );
 };

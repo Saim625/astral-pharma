@@ -7,19 +7,21 @@ import Footer from "./components/Footer";
 import ScrollToTop from "./utils/ScrollToTop";
 import AboutUs from "./components/AboutUs";
 import ContactUs from "./components/ContactUs";
+import FloatingWhatsappButton from "./components/FloatingWhatsappButton";
 
 function App() {
   return (
     <BrowserRouter>
-       <ScrollToTop/>
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route path="/" element={<Body />} />
-        <Route path='/about' element={<AboutUs/>}/>
-        <Route path='/contact' element={<ContactUs/>}/>
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/contact" element={<ContactUs />} />
         <Route path="/poultry-products" element={<PoultryProducts />} />
         <Route path="/livestock-products" element={<LivestockProducts />} />
       </Routes>
+      <FloatingWhatsappButton />
       <Footer />
     </BrowserRouter>
   );
